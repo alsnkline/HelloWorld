@@ -23,15 +23,15 @@
 		B1C3BE111589470C009C98E0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B1C3BE131589470C009C98E0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B1C3BE151589470C009C98E0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		B1C3BE191589470C009C98E0 /* HelloWorld-Info.plist */ = {isa = PBXFileReference; path = "HelloWorld-Info.plist"; sourceTree = "<group>"; };
+		B1C3BE191589470C009C98E0 /* HelloWorld-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloWorld-Info.plist"; sourceTree = "<group>"; };
 		B1C3BE1B1589470C009C98E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B1C3BE1D1589470C009C98E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B1C3BE1F1589470C009C98E0 /* HelloWorld-Prefix.pch */ = {isa = PBXFileReference; path = "HelloWorld-Prefix.pch"; sourceTree = "<group>"; };
-		B1C3BE201589470C009C98E0 /* HWAppDelegate.h */ = {isa = PBXFileReference; path = HWAppDelegate.h; sourceTree = "<group>"; };
+		B1C3BE1F1589470C009C98E0 /* HelloWorld-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloWorld-Prefix.pch"; sourceTree = "<group>"; };
+		B1C3BE201589470C009C98E0 /* HWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWAppDelegate.h; sourceTree = "<group>"; };
 		B1C3BE211589470C009C98E0 /* HWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWAppDelegate.m; sourceTree = "<group>"; };
 		B1C3BE241589470C009C98E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		B1C3BE271589470C009C98E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		B1C3BE291589470C009C98E0 /* HWViewController.h */ = {isa = PBXFileReference; path = HWViewController.h; sourceTree = "<group>"; };
+		B1C3BE291589470C009C98E0 /* HWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWViewController.h; sourceTree = "<group>"; };
 		B1C3BE2A1589470C009C98E0 /* HWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,8 +79,6 @@
 		B1C3BE171589470C009C98E0 /* HelloWorld */ = {
 			isa = PBXGroup;
 			children = (
-				B1C3BE201589470C009C98E0 /* HWAppDelegate.h */,
-				B1C3BE211589470C009C98E0 /* HWAppDelegate.m */,
 				B1C3BE231589470C009C98E0 /* MainStoryboard_iPhone.storyboard */,
 				B1C3BE261589470C009C98E0 /* MainStoryboard_iPad.storyboard */,
 				B1C3BE291589470C009C98E0 /* HWViewController.h */,
@@ -93,6 +91,8 @@
 		B1C3BE181589470C009C98E0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B1C3BE201589470C009C98E0 /* HWAppDelegate.h */,
+				B1C3BE211589470C009C98E0 /* HWAppDelegate.m */,
 				B1C3BE191589470C009C98E0 /* HelloWorld-Info.plist */,
 				B1C3BE1A1589470C009C98E0 /* InfoPlist.strings */,
 				B1C3BE1D1589470C009C98E0 /* main.m */,
